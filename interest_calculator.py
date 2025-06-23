@@ -122,7 +122,7 @@ def update_input_fields(event=None):
 # ------------------ Main Window ------------------
 
 root = tk.Tk()
-root.title("Capital Growth Calculator")
+root.title("Interest Calculator")
 root.geometry("380x370")
 root.resizable(False, False)
 
