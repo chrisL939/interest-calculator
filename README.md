@@ -16,9 +16,7 @@ It allows users to calculate final capital, starting capital, interest rate, or 
 
 ## Screenshots
 
-
-
-
+![screenshot1 png](https://github.com/user-attachments/assets/331654d6-4037-489c-85a6-3538becbd4b4)
 
 
 ### Requirements
