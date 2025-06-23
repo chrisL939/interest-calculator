@@ -22,7 +22,6 @@ It allows users to calculate final capital, starting capital, interest rate, or 
 ### Requirements
 
 - Python 3.10+
-- No additional libraries required
 
 ### Run the app
 
