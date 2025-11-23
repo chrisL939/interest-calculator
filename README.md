@@ -14,7 +14,7 @@ Diese Anwendung bietet eine **responsive Benutzeroberfläche (GUI)** und kann al
 
 Die wichtigsten Vorteile und technischen Details auf einen Blick:
 
-* **⚡️ Technologie:** Moderne, plattformunabhängige GUI dank **Flet**.
+* **💻 Technologie:** Moderne, plattformunabhängige GUI dank **Flet**.
 * **📱 Kompatibel:** Lauffähig als Desktop-Anwendung und kompilierbar als **Android/iOS-App**.
 * **⚖️ Mathematische Robustheit:** Berechnungen für Zinssatz und Dauer nutzen die **Bisektionsmethode** für hohe Präzision.
 
@@ -43,4 +43,11 @@ Um die Anwendung auszuführen, benötigen Sie:
     ```
 
 ---
+
+## ▶️ App starten (Entwicklungsmodus)
+
+Navigieren Sie in das Projektverzeichnis und starten Sie die Anwendung in der Vorschau:
+
+```bash
+py -m flet run main.py
 
