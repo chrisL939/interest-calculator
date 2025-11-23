@@ -1,16 +1,19 @@
-Flet Zinsrechner (Interest Calculator)
-Ein moderner Zinseszinsrechner, entwickelt mit dem Flet Framework.
+💰 Flet Zinsrechner (Compound Interest Calculator)
+Ein moderner Zinseszinsrechner, entwickelt mit dem Flet Framework und basierend auf Flutter.
 
-Diese Anwendung bietet eine responsive Benutzeroberfläche (GUI) und ermöglicht die Kompilierung als native App für Desktop und Mobile (Android/iOS). Die komplexen Berechnungen (Zinssatz und Dauer) werden mit einem reinen Python-Algorithmus (Bisektionsmethode) gelöst, wodurch externe wissenschaftliche Abhängigkeiten wie SciPy vermieden werden.
+Diese Anwendung bietet eine responsive Benutzeroberfläche (GUI) und kann als native App für Desktop und Mobile (Android/iOS) kompiliert werden. Die komplexen Berechnungen (Zinssatz und Dauer) werden mit einem reinen Python-Algorithmus (Bisektionsmethode) gelöst, wodurch externe wissenschaftliche Abhängigkeiten wie SciPy vermieden werden.
 
-✨ Features
-Moderne GUI (Flet): Responsive Benutzeroberfläche, die auf Flutter basiert.
+✨ Hauptmerkmale
+⚡️ Technologie: Moderne, plattformunabhängige GUI dank Flet (basiert auf Flutter).
 
-Plattformunabhängig: Lauffähig als Desktop-Anwendung und kompilierbar als Android/iOS-App.
+📱 Kompilierbar: Lauffähig als Desktop-Anwendung und kompilierbar als Android/iOS-App.
 
-Unterstützung monatlicher Beiträge.
+⚖️ Mathematische Robustheit: Berechnungen für Zinssatz und Dauer nutzen die Bisektionsmethode (reines Python) für hohe Genauigkeit ohne externe Binärdateien.
 
-Berechnet flexible Parameter:
+💸 Flexible Eingaben: Unterstützung für monatliche Beiträge.
+
+🔢 Berechnungen
+Die App kann vier zentrale Variablen basierend auf den anderen Eingaben berechnen:
 
 Endkapital (Final Capital)
 
@@ -20,27 +23,28 @@ Zinssatz (Interest Rate)
 
 Dauer (Duration in Jahren)
 
-Robust: Interne numerische Lösung (Bisektionsmethode) ersetzt externe Abhängigkeiten (SciPy).
-
-Eingabevalidierung und Fehlerbehandlung.
-
-💻 Anforderungen
+🛠️ Anforderungen & Installation
 Python 3.10+
 
-Flet (pip install flet)
+Flet (Installieren Sie die neueste Version):
 
-▶️ App ausführen
-Navigieren Sie in das Projektverzeichnis und starten Sie die Anwendung im Entwicklungsmodus:
+Bash
+
+pip install flet
+▶️ App starten (Entwicklungsmodus)
+Navigieren Sie in das Projektverzeichnis und führen Sie die Anwendung in der Vorschau aus:
 
 Bash
 
 py -m flet run main.py
-📱 Als Android-App kompilieren (APK)
-Um die App in eine installierbare APK-Datei zu kompilieren, benötigen Sie das Android SDK und müssen den Entwicklermodus in Windows aktivieren.
+⚙️ Als Android-App kompilieren (APK)
+Um die App in eine installierbare APK-Datei zu kompilieren, ist das Android SDK erforderlich.
 
-Führen Sie den Build-Befehl aus (ersetzen Sie den Pfad falls nötig):
+Stellen Sie sicher, dass das Android SDK installiert und die Umgebungsvariable ANDROID_HOME gesetzt ist.
+
+Führen Sie den Build-Befehl aus (verwenden Sie den vollständigen Pfad, falls der Befehl flet nicht direkt erkannt wird):
 
 Bash
 
 "C:\Users\xyz\AppData\Local\Programs\Python\Python312\Scripts\flet.exe" build apk
-Die fertige App (app-release.apk) finden Sie anschließend unter: Ihr Projektordner/build/app/outputs/apk/release/
+Die fertige App (app-release.apk) finden Sie nach Abschluss des Prozesses im Ordner: Ihr Projektordner/build/app/outputs/apk/release/
