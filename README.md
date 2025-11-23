@@ -1,29 +1,46 @@
-# interest-calculator (Tkinter GUI)
+Flet Zinsrechner (Interest Calculator)
+Ein moderner Zinseszinsrechner, entwickelt mit dem Flet Framework.
 
-A Python-based compound interest calculator with a graphical user interface.  
-It allows users to calculate final capital, starting capital, interest rate, or duration based on flexible input.
+Diese Anwendung bietet eine responsive Benutzeroberfläche (GUI) und ermöglicht die Kompilierung als native App für Desktop und Mobile (Android/iOS). Die komplexen Berechnungen (Zinssatz und Dauer) werden mit einem reinen Python-Algorithmus (Bisektionsmethode) gelöst, wodurch externe wissenschaftliche Abhängigkeiten wie SciPy vermieden werden.
 
-## Features
+✨ Features
+Moderne GUI (Flet): Responsive Benutzeroberfläche, die auf Flutter basiert.
 
-- Interactive GUI (Tkinter)
-- Monthly contribution support
-- Calculates:
-  - Final Capital
-  - Starting Capital
-  - Interest Rate
-  - Duration (Years)
-- Input validation & error handling
+Plattformunabhängig: Lauffähig als Desktop-Anwendung und kompilierbar als Android/iOS-App.
 
-## Screenshots
+Unterstützung monatlicher Beiträge.
 
-![screenshot1 png](https://github.com/user-attachments/assets/98131dd9-8efd-4d91-a54f-d677bdf10e49)
+Berechnet flexible Parameter:
 
+Endkapital (Final Capital)
 
-### Requirements
+Anfangskapital (Starting Capital)
 
-- Python 3.10+
+Zinssatz (Interest Rate)
 
-### Run the app
+Dauer (Duration in Jahren)
 
-```bash
-python interest-calculator.py
+Robust: Interne numerische Lösung (Bisektionsmethode) ersetzt externe Abhängigkeiten (SciPy).
+
+Eingabevalidierung und Fehlerbehandlung.
+
+💻 Anforderungen
+Python 3.10+
+
+Flet (pip install flet)
+
+▶️ App ausführen
+Navigieren Sie in das Projektverzeichnis und starten Sie die Anwendung im Entwicklungsmodus:
+
+Bash
+
+py -m flet run main.py
+📱 Als Android-App kompilieren (APK)
+Um die App in eine installierbare APK-Datei zu kompilieren, benötigen Sie das Android SDK und müssen den Entwicklermodus in Windows aktivieren.
+
+Führen Sie den Build-Befehl aus (ersetzen Sie den Pfad falls nötig):
+
+Bash
+
+"C:\Users\xyz\AppData\Local\Programs\Python\Python312\Scripts\flet.exe" build apk
+Die fertige App (app-release.apk) finden Sie anschließend unter: Ihr Projektordner/build/app/outputs/apk/release/
