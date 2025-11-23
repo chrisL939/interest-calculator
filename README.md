@@ -6,7 +6,6 @@ Ein **moderner Zinseszinsrechner**, entwickelt mit dem Flet Framework, basierend
 
 Diese Anwendung bietet eine **responsive Benutzeroberfläche (GUI)** und kann als native App für Desktop und Mobile (Android/iOS) kompiliert werden. Die komplexen Berechnungen (Zinssatz und Dauer) werden mit einem reinen **Python-Algorithmus (Bisektionsmethode)** gelöst, wodurch externe wissenschaftliche Abhängigkeiten vermieden werden.
 
----
 [Zinsrechner Screenshot.pdf](https://github.com/user-attachments/files/23697461/Zinsrechner.Screenshot.pdf)
 
 ---
